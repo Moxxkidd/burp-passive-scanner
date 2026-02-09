@@ -5,7 +5,7 @@
 | Week | 主题 | 状态 | 证据/链接 | 备注 |
 |---|---|---|---|---|
 | 1 | 环境配置与 Hello World | Done | docs/week-01.md | 截图已补 |
-| 2 | HTTP 流量处理 | Planned | | |
+| 2 | HTTP 流量处理 | 完成 | week-02.md | 有 |
 | 3 | 正则与敏感信息提取 | Planned | | |
 | 4 | Passive Scanner 接入 | Planned | | |
 | 5 | 正则扩展与校验 | Planned | | |
