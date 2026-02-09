@@ -28,7 +28,7 @@
 
 ## 证据（截图/日志）
 - Output 截图：`docs/assets/week-01-output.png`
-- Errors 截图（如有）：`docs/assets/week-01-errors.png`
+- Errors 截图：无
 
 ## 问题与解决
 - 问题：无
