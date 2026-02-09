@@ -5,9 +5,13 @@
 - 扩展加载成功
 - Output 中出现 "Hello Burp"
 
+## 完成日期
+- 2026-02-09
+
 ## 环境信息
-- Burp Suite 版本：
+- Burp Suite 版本：待补充
 - Jython 版本：2.7.x (Standalone JAR)
+- Jython JAR 路径：待补充
 - 操作系统：macOS
 
 ## 步骤记录
@@ -18,17 +22,17 @@
 5. Output 验证 "Hello Burp"
 
 ## 验收结果
-- [ ] 扩展状态为 Loaded
-- [ ] Output 出现 "Hello Burp"
-- [ ] Errors 无报错
+- [x] 扩展状态为 Loaded
+- [x] Output 出现 "Hello Burp"
+- [x] Errors 无报错
 
 ## 证据（截图/日志）
 - Output 截图：`docs/assets/week-01-output.png`
 - Errors 截图（如有）：`docs/assets/week-01-errors.png`
 
 ## 问题与解决
-- 问题：
-- 解决：
+- 问题：无
+- 解决：无
 
 ## 备注
 - Week 1 只验证环境链路，不做任何 HTTP 逻辑
