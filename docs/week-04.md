@@ -16,5 +16,5 @@
 - Issues 面板出现 “Possible Phone Number”
 
 ## 证据
-- 见asset/scanner out
+- 见asset/scanner output
 
