@@ -10,7 +10,7 @@ TEXT_TYPES = (
     "application/xhtml+xml",
 )
 
-# Mainland province codes (exclude HK/MO/TW)
+# 中国大陆身份证格式（港澳台除外）
 PROVINCE_CODES = set([
     "11","12","13","14","15",
     "21","22","23",
