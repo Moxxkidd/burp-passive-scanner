@@ -16,9 +16,9 @@ class BurpExtender(IBurpExtender, IScannerCheck):
         self._callbacks = callbacks
         self._helpers = callbacks.getHelpers()
         self._stdout = PrintWriter(callbacks.getStdout(), True)
-        callbacks.setExtensionName("Week4 Passive Scanner")
+        callbacks.setExtensionName("Passive Scanner")
         callbacks.registerScannerCheck(self)
-        self._stdout.println("[Week4] Scanner loaded")
+        self._stdout.println("Scanner loaded")
 
     def doPassiveScan(self, baseRequestResponse):
         resp = baseRequestResponse.getResponse()
