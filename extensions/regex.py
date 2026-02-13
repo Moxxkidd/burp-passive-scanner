@@ -25,13 +25,13 @@ class BurpExtender(IBurpExtender, IProxyListener):
         self._stdout = PrintWriter(callbacks.getStdout(), True)
 
         # 设置扩展名称
-        callbacks.setExtensionName("Week3 Regex Extract")
+        callbacks.setExtensionName("Regex Extract")
 
         # 注册代理监听，启用 processProxyMessage 回调
         callbacks.registerProxyListener(self)
 
         # 加载成功的提示
-        self._stdout.println("[Week3] Regex extractor loaded")
+        self._stdout.println("Regex extractor loaded")
 
     def processProxyMessage(self, messageIsRequest, message):
         # 只处理 response，跳过 request
