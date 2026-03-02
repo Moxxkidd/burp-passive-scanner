@@ -7,23 +7,18 @@ Burp Suite 被动扫描插件，用于在响应中低误报识别敏感信息（
 - 低误报正则 + 性能优化
 - 可读、可复现、可展示的项目留痕
 
-## 里程碑（计划）
-- Week 1: 环境配置与 Hello World
-- Week 2: 解析 HTTP 流量与 URL 打印
-- Week 3: 正则提取手机号
-- Week 4: 接入 Passive Scanner
-- Week 5-8: 正则扩展、误报控制、性能优化、高亮与配置化
-- Week 9-12: 重构注释、README 完善、发布与可选 BApp
+## 里程碑
+- 环境配置与 Hello World
+- HTTP 流量与 URL 打印
+- 正则提取手机号
+- 接入 Passive Scanner
+- 正则扩展、误报控制、性能优化、高亮与配置化
+- 重构注释、README 完善、发布与可选 BApp
 
-## 使用方式（待补充）
+## 使用方式
 - Burp Suite > Extensions > Options 配置 Jython
 - Extensions > Installed 加载本插件脚本
 
-## 留痕与记录
-- 进度记录见 `PROGRESS.md`
-- 周报记录见 `docs/`
-- 版本记录见 `CHANGELOG.md`
 
-## 仓库说明
-- 锻炼。
+
 
